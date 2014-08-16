@@ -2,3 +2,4 @@ node_modules
 localhost
 .idea
 *.iml
+npm-debug.log

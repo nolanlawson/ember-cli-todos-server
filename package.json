@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fortune": "^0.2.4",
-    "fortune-relational": "nolanlawson/fortune-relational@singular-post"
+    "fortune": "nolanlawson/fortune"
   }
 }
