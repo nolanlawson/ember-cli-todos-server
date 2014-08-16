@@ -1,9 +1,14 @@
 var fortune = require('fortune')
   , app = fortune({
-    adapter: 'sqlite'
+    adapter: 'nedb'
   })
   .resource('todo', {
     title: String,
-    isCompleted: Boolean
+    isCompleted: Boolean,
+    author: 'author'
+  })
+  .resource('author', {
+    name: String,
+    todos: ['todo']
   })
   .listen(1337);
