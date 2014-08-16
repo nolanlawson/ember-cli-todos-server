@@ -4,6 +4,11 @@ var fortune = require('fortune')
   })
   .resource('todo', {
     title: String,
-    isCompleted: Boolean
+    isCompleted: Boolean,
+    author: 'author'
+  })
+  .resource('author', {
+    name: String,
+    todos: ['todo']
   })
   .listen(1337);
