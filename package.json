@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-todomvc-server",
+  "name": "ember-cli-todos-server",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "fortune": "^0.2.4",
-    "fortune-relational": "^0.1.3"
+    "fortune-relational": "nolanlawson/fortune-relational@singular-post"
   }
 }
